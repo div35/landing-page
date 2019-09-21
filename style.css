@@ -1,0 +1,59 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+li {
+    padding: 2rem;
+}
+
+h1 {
+    color: black;
+    /* for boldness */
+    font-weight: 400;
+    margin-bottom: -6rem;
+    margin-top: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#article {
+    text-align: center;
+    display: flex;
+}
+
+.article-section {
+    margin: 6px;
+}
+
+.showcase img {
+    max-width: 150%;
+    height: 135vh;
+}
